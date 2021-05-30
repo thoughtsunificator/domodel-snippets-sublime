@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+export default {
+	tagName: "${1:div}"
+}
+]]></content>
+	<tabTrigger>model</tabTrigger>
+	<scope>source.js</scope>
+	<description>domodel model</description>
+</snippet>

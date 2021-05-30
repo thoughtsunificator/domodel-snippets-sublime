@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+import { Binding } from "domodel"
+
+export default class extends Binding {
+
+	onCreated() {
+
+		const { application } = this.properties
+
+	}
+
+}
+]]></content>
+	<tabTrigger>binding</tabTrigger>
+	<scope>source.js</scope>
+	<description>domodel binding</description>
+</snippet>
