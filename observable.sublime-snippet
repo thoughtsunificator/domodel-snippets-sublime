@@ -2,6 +2,9 @@
 	<content><![CDATA[
 import { Observable } from "domodel"
 
+/**
+ * @global
+ */
 class ${1:MyClass} extends Observable {
 
 	/**
