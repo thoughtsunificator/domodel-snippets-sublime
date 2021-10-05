@@ -2,7 +2,10 @@
 	<content><![CDATA[
 import { Binding } from "domodel"
 
-export default class extends Binding {
+/**
+ * @global
+ */
+class ${1:}Binding extends Binding {
 
 	onCreated() {
 
@@ -11,6 +14,8 @@ export default class extends Binding {
 	}
 
 }
+
+export default ${1:}Binding
 ]]></content>
 	<tabTrigger>binding</tabTrigger>
 	<scope>source.js</scope>
