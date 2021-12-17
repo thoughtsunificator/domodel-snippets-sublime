@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[
+import assert from "assert"
 import { JSDOM } from "jsdom"
 import { Core, Binding } from "domodel"
 
@@ -17,12 +18,10 @@ describe("${1:}", () => {
 	it("setUp", () => {
 		rootBinding = new Binding()
 		Core.run(RootModel, { parentNode: document.body, binding: rootBinding })
-		callback()
 	})
 
 	it("tearDown", () => {
 		rootBinding.remove()
-		callback()
 	})
 
 	it("instance", () => {
